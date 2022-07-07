@@ -6,6 +6,7 @@
 body{
     padding-left: 15%;
     padding-right: 15%;
+    font-family: 'Martel Sans', sans-serif;
 }
 
 /* Header */
@@ -14,7 +15,6 @@ header{
 }
 
 header h1{
-    font-family: 'Lobster', cursive;
     margin-bottom: 50px;
     color: rgb(226, 53, 113);
 }
@@ -30,6 +30,25 @@ main{
     background-color: black;
     margin-bottom: 5%;
     box-shadow: 5px 5px 5px grey;
+}
+
+div > img{
+    max-width:100%;
+    max-height:100%; 
+    float: left;  
+    margin-right: 5px;
+}
+
+
+/* Individual Cards */
+.persona{
+    float: left;
+    color: white;
+    font-size: 9px;
+}
+
+.persona > p:last-child{
+    color: rgb(109,194,212);
 }
 
 .card-floating-left{
