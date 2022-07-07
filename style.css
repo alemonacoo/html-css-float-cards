@@ -1,0 +1,20 @@
+/* General */
+*{ 
+    box-sizing: border-box;
+}
+
+body{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+header{
+    text-align: center;
+
+}
+
+header h1{
+    font-family: 'Lobster', cursive;
+    margin-bottom: 50px;
+    color: rgb(226, 53, 113);
+}
