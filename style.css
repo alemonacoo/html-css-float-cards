@@ -8,9 +8,9 @@ body{
     padding-right: 15%;
 }
 
+/* Header */
 header{
     text-align: center;
-
 }
 
 header h1{
@@ -18,3 +18,28 @@ header h1{
     margin-bottom: 50px;
     color: rgb(226, 53, 113);
 }
+
+/* Cards */
+main{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cards-container > div{
+    height: 100px;
+    width: calc((100% - 10%)/3);
+    background-color: black;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.card-floating-left{
+    float: left;
+    margin-right: 5%;
+}
+
+.card-floating-right{
+    float: right;
+}
+
+
+
