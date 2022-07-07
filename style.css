@@ -30,6 +30,7 @@ main{
     background-color: black;
     margin-bottom: 5%;
     box-shadow: 5px 5px 5px grey;
+    overflow: hidden;
 }
 
 div > img{
